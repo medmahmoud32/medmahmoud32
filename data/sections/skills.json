@@ -7,27 +7,14 @@
                 "title_long_prefix": "Explore",
                 "title_long": "My {{Skill Set}}"
             },
-            "es": {
-                "title_short": "Habilidades",
-                "title_short_nav": "Habilidades",
-                "title_long_prefix": "Explora",
-                "title_long": "Mis {{Habilidades}}"
-            },
             "fr": {
                 "title_short": "Capacités",
                 "title_short_nav": "Capacités",
                 "title_long_prefix": "Explorez",
                 "title_long": "Mes {{Compétences}}"
-            },
-            "ko": {
-                "title_short": "스킬",
-                "title_short_nav": "스킬",
-                "title_long_prefix": "이것은 내",
-                "title_long": "{{스킬}}입니다"
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -39,28 +26,92 @@
             },
             "items": [
                 {
-                    "id": 1,
+                    "id": 16,
                     "img": "",
-                    "faIcon": "fa-solid fa-table-columns",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIcon": "fa-solid fa-coins",
+                    "faIconColors": {"bg": "", "fill": "#f39c12"},
                     "date": {"year": null, "month": null},
                     "link": {"href": "", "tooltipString": ""},
                     "locales": {
                         "en": {
-                            "title": "{{Website}} design",
-                            "text": "I can bring your best ideas into life and make them a reality!"
-                        },
-                        "es": {
-                            "title": "{{Diseño}} de websites",
-                            "text": "¡Puedo hacer realidad tus mejores ideas y hacerlas reales!"
+                            "title": "{{Economic}} Modeling",
+                            "text": "Skilled in building economic models to simulate policies and forecast economic behavior."
                         },
                         "fr": {
-                            "title": "{{Conception}} de websites",
-                            "text": "Je peux donner vie à vos meilleures idées et les rendre réelles !"
+                            "title": "Modélisation {{économique}}",
+                            "text": "Compétent dans la construction de modèles économiques pour simuler des politiques et prévoir le comportement économique."
+                        }
+                    }
+                },
+                {
+                    "id": 17,
+                    "img": "",
+                    "faIcon": "fa-solid fa-square-root-variable",
+                    "faIconColors": {"bg": "", "fill": "#8e44ad"},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Statistics}} & Probability",
+                            "text": "Strong foundation in inference, probability distributions, and statistical modeling."
                         },
-                        "ko": {
-                            "title": "{{웹사이트}} 디자인",
-                            "text": "당신의 최고의 아이디어를 실현하고 현실로 만들 수 있습니다!"
+                        "fr": {
+                            "title": "{{Statistiques}} et probabilités",
+                            "text": "Solide maîtrise de l'inférence, des lois de probabilité et de la modélisation statistique."
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {"bg": "", "fill": "#6c5ce7"},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "AI & Modeling",
+                            "text": "I develop statistical and machine learning models to explain and predict real-world phenomena."
+                        },
+                        "fr": {
+                            "title": "IA & Modélisation",
+                            "text": "Je développe des modèles statistiques et d'apprentissage automatique pour expliquer et prédire des phénomènes réels."
+                        }
+                    }
+                },
+              {
+                    "id": 18,
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-pie",
+                    "faIconColors": {"bg": "", "fill": "#e67e22"},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Data}} Visualization",
+                            "text": "I can create compelling visualizations to communicate complex data insights."
+                        },
+                        "fr": {
+                            "title": "Visualisation {{des données}}",
+                            "text": "Je peux créer des visualisations convaincantes pour communiquer des insights complexes."
+                        }
+                    }
+                },
+                {
+                    "id": 0,
+                    "img": "",
+                    "faIcon": "fa-solid fa-clipboard-list",
+                    "faIconColors": {"bg": "", "fill": "#00b894"},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Survey Design & Data Collection",
+                            "text": "Skilled in designing and implementing data collection tools for field surveys and research studies."
+                        },
+                        "fr": {
+                            "title": "Conception d'enquêtes",
+                            "text": "Compétent dans la conception et la mise en œuvre d'outils de collecte de données pour les enquêtes de terrain et les études."
                         }
                     }
                 },
@@ -76,17 +127,45 @@
                             "title": "{{Database}} management",
                             "text": "I can handle your data effectively and efficiently!"
                         },
-                        "es": {
-                            "title": "Gestión de {{bases de datos}}",
-                            "text": "¡Puedo manejar sus datos de manera efectiva y eficiente!"
-                        },
                         "fr": {
                             "title": "Gestion de {{bases de données}}",
                             "text": "Je peux gérer vos données de manière efficace et efficiente !"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Data}} Science",
+                            "text": "From raw data to insights, I know how to tell the story behind the numbers."
                         },
-                        "ko": {
-                            "title": "{{데이터베이스}} 관리",
-                            "text": "데이터를 효과적이고 효율적으로 처리할 수 있습니다. 최고의 관행을 사용하여 데이터베이스를 관리합니다!"
+                        "fr": {
+                            "title": "Science des {{données}}",
+                            "text": "Des données brutes aux insights, je raconte l'histoire derrière les chiffres."
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-table-columns",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Website}} design",
+                            "text": "I can bring your best ideas into life and make them a reality!"
+                        },
+                        "fr": {
+                            "title": "{{Conception}} de websites",
+                            "text": "Je peux donner vie à vos meilleures idées et les rendre réelles !"
                         }
                     }
                 },
@@ -102,17 +181,9 @@
                             "title": "{{App}} creation",
                             "text": "I can make creative and innovative apps!"
                         },
-                        "es": {
-                            "title": "Creación de {{aplicaciones}}",
-                            "text": "¡Puedo hacer aplicaciones creativas e innovadoras!"
-                        },
                         "fr": {
                             "title": "Création {{d'applications}}",
                             "text": "Je peux créer des applications créatives et innovantes !"
-                        },
-                        "ko": {
-                            "title": "{{앱}} 제작",
-                            "text": "창의적이고 혁신적인 앱을 만들 수 있습니다!"
                         }
                     }
                 },
@@ -128,17 +199,9 @@
                             "title": "{{REST}} APIs",
                             "text": "I can build API services!"
                         },
-                        "es": {
-                            "title": "APIs {{REST}}",
-                            "text": "¡Puedo construir servicios API!"
-                        },
                         "fr": {
                             "title": "APIs {{REST}}",
                             "text": "Je peux créer des services API !"
-                        },
-                        "ko": {
-                            "title": "{{REST}} API",
-                            "text": "API 서비스를 구축할 수 있습니다!"
                         }
                     }
                 },
@@ -154,31 +217,20 @@
                             "title": "Information {{Security}}",
                             "text": "Security is my middle name!"
                         },
-                        "es": {
-                            "title": "{{Seguridad}} Informática",
-                            "text": "¡La seguridad es mi segundo nombre!"
-                        },
                         "fr": {
                             "title": "{{Sécurité}} Informatique",
                             "text": "La sécurité est mon deuxième prénom !"
-                        },
-                        "ko": {
-                            "title": "{{정보}} 보안",
-                            "text": "보안은 내 중간 이름입니다!"
                         }
                     }
                 }
             ]
         },
-
         {
             "id": 2,
             "component": "ArticleSkills",
             "locales": {
                 "en": {"title": "Backend Stack"},
-                "es": {"title": "Stack de Backend"},
-                "fr": {"title": "Stack Backend"},
-                "zh": {"title": "后端技术栈"}
+                "fr": {"title": "Stack Backend"}
             },
             "settings": {
                 "max_items_per_row": 3,
@@ -188,78 +240,6 @@
                 "round_icons": false
             },
             "items": [
-                {
-                    "id": 1,
-                    "img": "",
-                    "faIcon": "fa-brands fa-node-js",
-                    "faIconColors": {"bg": "", "fill": "#339933"},
-                    "date": {"year": 2019, "month": 3},
-                    "percentage": 95,
-                    "locales": {
-                        "en": {
-                            "title": "Node.js",
-                            "text": "Certified developer by Node.js Foundation.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Desarrollador certificado por la Fundación Node.js."
-                        },
-                        "fr": {
-                            "text": "Développeur certifié par la Node.js Foundation."
-                        },
-                        "ko": {
-                            "text": "Node.js 재단 인증 개발자."
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "img": "",
-                    "faIcon": "fa-brands fa-java",
-                    "faIconColors": {"bg": "", "fill": "#0295c2", "fillLight": "#007396"},
-                    "date": {"year": 2019, "month": 10},
-                    "percentage": 95,
-                    "locales": {
-                        "en": {
-                            "title": "Java",
-                            "text": "Oracle certified Java developer with a strong understanding of its ecosystem.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Desarrollador de Java certificado por Oracle con un sólido entendimiento de su ecosistema."
-                        },
-                        "fr": {
-                            "text": "Développeur Java certifié Oracle avec une bonne compréhension de son écosystème."
-                        },
-                        "ko": {
-                            "text": "Oracle 인증 Java 개발자로 Java 생태계에 대한 강력한 이해."
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "img": "",
-                    "faIcon": "fa-solid fa-gem",
-                    "faIconColors": {"bg": "", "fill": "#CC0000"},
-                    "date": {"year": 2020, "month": 8},
-                    "percentage": 80,
-                    "locales": {
-                        "en": {
-                            "title": "Ruby on Rails",
-                            "text": "Complete understanding of Ruby on Rails for building web applications.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Comprensión completa de Ruby on Rails para construir aplicaciones web."
-                        },
-                        "fr": {
-                            "text": "Compréhension complète de Ruby on Rails pour créer des applications web."
-                        },
-                        "ko": {
-                            "text": "웹 애플리케이션 구축을 위한 Ruby on Rails에 대한 완전한 이해."
-                        }
-                    }
-                },
                 {
                     "id": 4,
                     "img": "",
@@ -273,14 +253,8 @@
                             "text": "I can manage and optimize MySQL databases for performance and reliability.",
                             "level": ""
                         },
-                        "es": {
-                            "text": "Puedo gestionar y optimizar bases de datos MySQL para rendimiento y fiabilidad."
-                        },
                         "fr": {
                             "text": "Je peux gérer et optimiser les bases de données MySQL pour la performance et la fiabilité."
-                        },
-                        "ko": {
-                            "text": "성능과 안정성을 위해 MySQL 데이터베이스를 관리하고 최적화할 수 있습니다."
                         }
                     }
                 },
@@ -289,22 +263,16 @@
                     "img": "",
                     "faIcon": "fa-brands fa-docker",
                     "faIconColors": {"bg": "", "fill": "#2496ED"},
-                    "date": {"year": 2021, "month": 4},
-                    "percentage": 60,
+                    "date": {"year": 2024, "month": 4},
+                    "percentage": 80,
                     "locales": {
                         "en": {
                             "title": "Docker",
                             "text": "Working knowledge of Docker for containerization.",
                             "level": ""
                         },
-                        "es": {
-                            "text": "Conocimientos prácticos de Docker para la contenedorización."
-                        },
                         "fr": {
                             "text": "Connaissance pratique de Docker pour la conteneurisation."
-                        },
-                        "ko": {
-                            "text": "컨테이너화를 위한 Docker에 대한 실무 지식."
                         }
                     }
                 },
@@ -313,22 +281,16 @@
                     "img": "",
                     "faIcon": "fa-brands fa-php",
                     "faIconColors": {"bg": "", "fill": "#FFD700", "fillLight": "#4F5B93"},
-                    "date": {"year": 2018, "month": 9},
-                    "percentage": 100,
+                    "date": {"year": 2023, "month": 9},
+                    "percentage": 55,
                     "locales": {
                         "en": {
                             "title": "PHP 8.0+",
-                            "text": "Strong understanding of PHP and its frameworks.",
+                            "text": "Good understanding of PHP and its frameworks.",
                             "level": ""
-                        },
-                        "es": {
-                            "text": "Sólido entendimiento de PHP y sus frameworks."
                         },
                         "fr": {
                             "text": "Bonne compréhension de PHP et de ses frameworks."
-                        },
-                        "ko": {
-                            "text": "PHP 및 그 프레임워크에 대한 강력한 이해."
                         }
                     }
                 },
@@ -337,7 +299,7 @@
                     "img": "",
                     "faIcon": "fa-brands fa-python",
                     "faIconColors": {"bg": "", "fill": "#306998"},
-                    "date": {"year": 2020, "month": 6},
+                    "date": {"year": 2021, "month": 6},
                     "percentage": 85,
                     "locales": {
                         "en": {
@@ -345,38 +307,8 @@
                             "text": "Data analysis and machine learning with Python.",
                             "level": ""
                         },
-                        "es": {
-                            "text": "Análisis de datos y aprendizaje automático con Python."
-                        },
                         "fr": {
                             "text": "Analyse de données et apprentissage automatique avec Python."
-                        },
-                        "ko": {
-                            "text": "Python을 사용한 데이터 분석 및 기계 학습."
-                        }
-                    }
-                },
-                {
-                    "id": 8,
-                    "img": "",
-                    "faIcon": "fa-solid fa-life-ring",
-                    "faIconColors": {"bg": "", "fill": "#326CE5"},
-                    "date": {"year": 2021, "month": 7},
-                    "percentage": 80,
-                    "locales": {
-                        "en": {
-                            "title": "Kubernetes",
-                            "text": "Total devotee of Kubernetes for container orchestration and management.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Devoto total de Kubernetes para la orquestación y gestión de contenedores."
-                        },
-                        "fr": {
-                            "text": "Total dévoué à Kubernetes pour l'orchestration et la gestion des conteneurs."
-                        },
-                        "ko": {
-                            "text": "컨테이너 오케스트레이션 및 관리를 위한 Kubernetes의 총 애호가."
                         }
                     }
                 },
@@ -385,8 +317,8 @@
                     "img": "",
                     "faIcon": "fa-solid fa-server",
                     "faIconColors": {"bg": "", "fill": "#47A248"},
-                    "date": {"year": 2024, "month": 5},
-                    "percentage": 50,
+                    "date": {"year": 2023, "month": 5},
+                    "percentage": 75,
                     "locales": {
                         "en": {
                             "title": "MongoDB",
@@ -400,36 +332,99 @@
                     "img": "",
                     "faIcon": "fa-brands fa-git",
                     "faIconColors": {"bg": "", "fill": "#F05032"},
-                    "date": {"year": 2018, "month": 1},
-                    "percentage": 90,
+                    "date": {"year": 2022, "month": 1},
+                    "percentage": 80,
                     "locales": {
                         "en": {
                             "title": "Git",
                             "text": "Complete understanding of Git for version control and collaboration.",
                             "level": ""
                         },
-                        "es": {
-                            "text": "Comprensión completa de Git para control de versiones y colaboración."
-                        },
                         "fr": {
                             "text": "Compréhension complète de Git pour le contrôle de version et la collaboration."
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {"bg": "", "fill": "#092E20"},
+                    "date": {"year": 2022, "month": 11},
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Django",
+                            "text": "Web application development using Django framework.",
+                            "level": ""
                         },
-                        "ko": {
-                            "text": "버전 관리 및 협업을 위한 Git에 대한 완전한 이해."
+                        "fr": {
+                            "text": "Développement d'applications web avec le framework Django."
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "img": "",
+                    "faIcon": "fa-solid fa-stream",
+                    "faIconColors": {"bg": "", "fill": "#231F20"},
+                    "date": {"year": 2024, "month": 11},
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "Kafka",
+                            "text": "Experience with Kafka for streaming data pipelines.",
+                            "level": ""
+                        },
+                        "fr": {
+                            "text": "Expérience avec Kafka pour les pipelines de données en streaming."
+                        }
+                    }
+                },
+                {
+                    "id": 13,
+                    "img": "",
+                    "faIcon": "fa-brands fa-r-project",
+                    "faIconColors": { "bg": "", "fill": "#276DC3" },
+                    "date": { "year": 2020, "month": 12 },
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "R",
+                            "text": "Advanced data analysis, modeling, and visualization using R.",
+                            "level": "Advanced"
+                        },
+                        "fr": {
+                            "text": "Analyse de données avancée, modélisation et visualisation avec R."
+                        }
+                    }
+                },
+                {
+                    "id": 14,
+                    "img": "",
+                    "faIcon": "fa-solid fa-tablet-alt",
+                    "faIconColors": { "bg": "", "fill": "#2ecc71" },
+                    "date": { "year": 2022, "month": 4 },
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "SurveyCTO & KoboToolbox",
+                            "text": "Digital tools for designing and managing field data collection.",
+                            "level": "Expert"
+                        },
+                        "fr": {
+                            "text": "Outils numériques pour la conception et la gestion des collectes de données sur le terrain."
                         }
                     }
                 }
             ]
         },
-
         {
             "id": 3,
             "component": "ArticleSkills",
             "locales": {
                 "en": {"title": "Frontend Stack"},
-                "es": {"title": "Stack de Frontend"},
-                "fr": {"title": "Stack Frontend"},
-                "zh": {"title": "前端技术栈"}
+                "fr": {"title": "Stack Frontend"}
             },
             "settings": {
                 "max_items_per_row": 3,
@@ -444,22 +439,16 @@
                     "img": "",
                     "faIcon": "fa-brands fa-html5",
                     "faIconColors": {"bg": "", "fill": "#E34F26"},
-                    "date": {"year": 2018, "month": 9},
-                    "percentage": 100,
+                    "date": {"year": 2022, "month": 9},
+                    "percentage": 90,
                     "locales": {
                         "en": {
                             "title": "HTML 5",
                             "text": "I am proficient in HTML5 for building structured web pages.",
                             "level": ""
                         },
-                        "es": {
-                            "text": "Soy competente en HTML5 para construir páginas web estructuradas."
-                        },
                         "fr": {
                             "text": "Je suis compétent en HTML5 pour créer des pages web structurées."
-                        },
-                        "ko": {
-                            "text": "구조화된 웹 페이지를 구축하기 위해 HTML5에 능숙합니다."
                         }
                     }
                 },
@@ -468,7 +457,7 @@
                     "img": "",
                     "faIcon": "fa-brands fa-css3-alt",
                     "faIconColors": {"bg": "", "fill": "#1572B6"},
-                    "date": {"year": 2019, "month": 1},
+                    "date": {"year": 2022, "month": 1},
                     "percentage": 65,
                     "locales": {
                         "en": {
@@ -476,14 +465,8 @@
                             "text": "I can create responsive and visually appealing designs using CSS3.",
                             "level": ""
                         },
-                        "es": {
-                            "text": "Puedo crear diseños receptivos y visualmente atractivos utilizando CSS3."
-                        },
                         "fr": {
                             "text": "Je peux créer des designs réactifs et visuellement attrayants en utilisant CSS3."
-                        },
-                        "ko": {
-                            "text": "CSS3를 사용하여 반응형이고 시각적으로 매력적인 디자인을 만들 수 있습니다."
                         }
                     }
                 },
@@ -492,22 +475,16 @@
                     "img": "",
                     "faIcon": "fa-brands fa-js",
                     "faIconColors": {"bg": "", "fill": "#F7DF1E", "fillLight": "#a69617"},
-                    "date": {"year": 2020, "month": 3},
-                    "percentage": 90,
+                    "date": {"year": 2022, "month": 3},
+                    "percentage": 55,
                     "locales": {
                         "en": {
                             "title": "JavaScript ES6+",
                             "text": "Mastered JavaScript ES6+ for dynamic and interactive web applications.",
                             "level": ""
                         },
-                        "es": {
-                            "text": "Dominio de JavaScript ES6+ para aplicaciones web dinámicas e interactivas."
-                        },
                         "fr": {
                             "text": "Maîtrisé JavaScript ES6+ pour des applications web dynamiques et interactives."
-                        },
-                        "ko": {
-                            "text": "동적이고 대화형 웹 애플리케이션을 위한 JavaScript ES6+를 마스터했습니다."
                         }
                     }
                 },
@@ -516,46 +493,16 @@
                     "img": "",
                     "faIcon": "fa-brands fa-react",
                     "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
-                    "date": {"year": 2020, "month": 6},
-                    "percentage": 95,
+                    "date": {"year": 2025, "month": 6},
+                    "percentage": 55,
                     "locales": {
                         "en": {
                             "title": "React",
-                            "text": "Complete understanding of React for building modern web applications.",
+                            "text": "Understanding of React for building modern web applications.",
                             "level": ""
                         },
-                        "es": {
-                            "text": "Comprensión completa de React para construir aplicaciones web modernas."
-                        },
                         "fr": {
-                            "text": "Compréhension complète de React pour créer des applications web modernes."
-                        },
-                        "ko": {
-                            "text": "최신 웹 애플리케이션 구축을 위한 React에 대한 완전한 이해."
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "img": "",
-                    "faIcon": "fa-brands fa-vuejs",
-                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
-                    "date": {"year": 2023, "month": 8},
-                    "percentage": 40,
-                    "locales": {
-                        "en": {
-                            "title": "Vue.js",
-                            "text": "Good understanding of Vue.js for building interactive user interfaces.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Buena comprensión de Vue.js para construir interfaces de usuario interactivas."
-                        },
-                        "fr": {
-                            "text": "Bonne compréhension de Vue.js pour créer des interfaces utilisateur interactives."
-                        },
-                        "ko": {
-                            "text": "대화형 사용자 인터페이스 구축을 위한 Vue.js에 대한 좋은 이해."
+                            "text": "Compréhension de React pour créer des applications web modernes."
                         }
                     }
                 },
@@ -564,36 +511,45 @@
                     "img": "",
                     "faIcon": "fa-brands fa-bootstrap",
                     "faIconColors": {"bg": "", "fill": "#7952B3"},
-                    "date": {"year": 2021, "month": 2},
-                    "percentage": 90,
+                    "date": {"year": 2022, "month": 2},
+                    "percentage": 70,
                     "locales": {
                         "en": {
                             "title": "Bootstrap 5+",
                             "text": "Good understanding of Bootstrap for responsive design.",
                             "level": ""
                         },
-                        "es": {
-                            "text": "Buena comprensión de Bootstrap para diseño receptivo."
-                        },
                         "fr": {
                             "text": "Bonne compréhension de Bootstrap pour le design réactif."
+                        }
+                    }
+                },
+                {
+                    "id": 15,
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-column",
+                    "faIconColors": { "bg": "", "fill": "#F2C811" },
+                    "date": { "year": 2023, "month": 7 },
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Power BI",
+                            "text": "I design interactive dashboards and reports using Power BI for data-driven insights.",
+                            "level": "Advanced"
                         },
-                        "ko": {
-                            "text": "반응형 디자인을 위한 Bootstrap에 대한 좋은 이해."
+                        "fr": {
+                            "text": "Je conçois des tableaux de bord interactifs et des rapports avec Power BI pour des analyses axées sur les données."
                         }
                     }
                 }
             ]
         },
-
         {
             "id": 4,
             "component": "ArticleSkills",
             "locales": {
                 "en": {"title": "Languages"},
-                "es": {"title": "Idiomas"},
-                "fr": {"title": "Langues"},
-                "zh": {"title": "语言"}
+                "fr": {"title": "Langues"}
             },
             "settings": {
                 "max_items_per_row": 1,
@@ -605,31 +561,21 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/flags/en-us.png",
+                    "img": "images/flags/mrt.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "date": {"year": null, "month": null},
                     "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "English",
+                            "title": "Arabic",
                             "text": "Native speaker with excellent communication and writing skills.",
-                            "level": "Native"
-                        },
-                        "es": {
-                            "title": "Inglés",
-                            "text": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
-                            "level": "Nativo"
+                            "level": "Fluent"
                         },
                         "fr": {
-                            "title": "Anglais",
+                            "title": "Arabic",
                             "text": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
-                            "level": "Natif"
-                        },
-                        "ko": {
-                            "title": "영어",
-                            "text": "탁월한 의사소통 및 작문 능력을 갖춘 원어민.",
-                            "level": "원어민"
+                            "level": "Fluent"
                         }
                     }
                 },
@@ -646,80 +592,30 @@
                             "text": "Fluent in both spoken and written French; confident in professional communication.",
                             "level": "Fluent"
                         },
-                        "es": {
-                            "title": "Francés",
-                            "text": "Fluido en francés hablado y escrito; seguro en la comunicación profesional.",
-                            "level": "Fluido"
-                        },
                         "fr": {
                             "title": "Français",
-                            "text": "Fluent en français parlé et écrit ; confiant dans la communication professionnelle.",
+                            "text": "Courant en français parlé et écrit ; confiant dans la communication professionnelle.",
                             "level": "Courant"
-                        },
-                        "ko": {
-                            "title": "프랑스어",
-                            "text": "구어 및 서면 프랑스어에 능통; 전문적인 의사소통에 자신감이 있습니다.",
-                            "level": "유창함"
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "img": "images/flags/vi.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "Vietnamese",
-                            "text": "Intermediate proficiency in Vietnamese language; I can hold conversations and understand written text.",
-                            "level": "Intermediate"
-                        },
-                        "es": {
-                            "title": "Vietnamita",
-                            "text": "Competencia intermedia en el idioma vietnamita; puedo mantener conversaciones y entender textos escritos.",
-                            "level": "Intermedio"
-                        },
-                        "fr": {
-                            "title": "Vietnamien",
-                            "text": "Compétence intermédiaire en vietnamien ; je peux tenir des conversations et comprendre des textes écrits.",
-                            "level": "Intermédiaire"
-                        },
-                        "ko": {
-                            "title": "베트남어",
-                            "text": "중간 수준의 베트남어 실력; 대화 가능 및 글을 이해할 수 있음.",
-                            "level": "중급"
                         }
                     }
                 },
                 {
                     "id": 4,
-                    "img": "images/flags/ko.png",
+                    "img": "images/flags/en-us.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "date": {"year": null, "month": null},
                     "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "Korean",
-                            "text": "Basic understanding of Korean; learning and improving.",
-                            "level": "Basic"
-                        },
-                        "es": {
-                            "title": "Coreano",
-                            "text": "Comprensión básica del coreano; aprendiendo y mejorando.",
-                            "level": "Básico"
+                            "title": "English",
+                            "text": "I can read, write, and speak fluently.",
+                            "level": "Fluent"
                         },
                         "fr": {
-                            "title": "Coréen",
-                            "text": "Compréhension de base du coréen; en apprentissage et amélioration.",
-                            "level": "Basique"
-                        },
-                        "ko": {
-                            "title": "한국어",
-                            "text": "기초적인 한국어 이해; 배우는 중이며 향상 중.",
-                            "level": "기초"
+                            "title": "Anglais",
+                            "text": "Je peux lire, écrire et parler couramment.",
+                            "level": "Courant"
                         }
                     }
                 }
