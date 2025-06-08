@@ -1,6 +1,5 @@
 {
     "name": "Mouhamed Mahmoud YAHYA",
-
     "profilePictureUrl": "images/pictures/profile-picture.jpg",
     "resumePdfUrl": "",
 
@@ -11,22 +10,32 @@
     "locales": {
         "en": {
             "localized_name": "Mouhamed Mahmoud YAHYA",
-            "localized_name_stylized": " [[Med Mahmoud {{YAHYA}}]]",
+            "localized_name_stylized": "[[Med Mahmoud {{YAHYA}}]]",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
                 "Statistician economist",
-                "Data scientist engineer",
+                "Data science engineer",
                 "Graphic designer"
             ]
         },
         "fr": {
             "localized_name": "Mouhamed Mahmoud YAHYA",
-            "localized_name_stylized": " [[Med Mahmoud {{YAHYA}}]]",
-            "status_message_available_for_freelance": "Available for freelance!",
+            "localized_name_stylized": "[[Med Mahmoud {{YAHYA}}]]",
+            "status_message_available_for_freelance": "Disponible pour des missions en freelance !",
             "roles": [
-                "Statistician economist",
-                "Data scientist engineer",
-                "Graphic designer"
+                "Statisticien-économiste",
+                "Ingénieur en science des données",
+                "Designer graphique"
+            ]
+        },
+        "ar": {
+            "localized_name": "محمد محمود يحيى",
+            "localized_name_stylized": "[[مد محمود {{يحيى}}]]",
+            "status_message_available_for_freelance": "متاح للعمل الحر!",
+            "roles": [
+                "إحصائي اقتصادي",
+                "مهندس علوم البيانات",
+                "مصمم جرافيك"
             ]
         }
     }
