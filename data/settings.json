@@ -8,8 +8,9 @@
 
     "preloaderSettings": {
         "enabled": true,
-        "title": "React <strong>Portfolio</strong>",
-        "subtitle": "by Med Mahmoud",
+        "title": "Welcome to <strong> YAHYA </strong>'s <strong>Portfolio</strong>",
+        "subtitle": "A showcase of my work and skills",
+        "backgroundImageUrl": "images/preloader-bg.jpg",
         "logoOffset": {
             "right": 14,
             "top": 2,
